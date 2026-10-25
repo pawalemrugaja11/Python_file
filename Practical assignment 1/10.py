@@ -1,7 +1,6 @@
 f = open("names.txt", "r")
 names = f.readlines()
 f.close()
-
 groups = {}
 
 for name in names:
